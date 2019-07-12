@@ -192,4 +192,13 @@ kubectl get pods
 
 You should able to see 3 pods were created. To open in browser, browse using following `http://<master-node-ip>:30001` and should see `hello world`
 
+### Scale up application instance
+Currently the deployment services only create 3 replicas, to scaling up issue this command
+
+```
+kubectl scale --replicas=7 deployment/myappdeployment
+```
+
+Kubernetes will spin up 4 more pods based on our configurations.
+
 
