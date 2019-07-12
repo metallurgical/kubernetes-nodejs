@@ -1,5 +1,5 @@
 ## Introduction
-Deploy simple NodeJS apps with kubernetes deployment. 
+Deploy simple NodeJS apps with kubernetes deployment. At this point, this repo used `LoadBalancer` type `ingress` to expose HTTP(s) from outside cluster to communicate with the services inside a cluster.
 
 ## Requirements
 - Master Node - VPS Ubuntu 18.04 LTS with minimum 2 cores CPU and 2GB RAM
